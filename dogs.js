@@ -1,10 +1,4 @@
-// forces desktop mode on all device
-var viewMode = getCookie("view-mode");
-if(viewMode == "desktop"){
-    viewport.setAttribute('content', 'width=1024');
-}else if (viewMode == "mobile"){
-    viewport.setAttribute('content', 'width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no');
-}
+
 // //This is the API url
 // const DOG_URL = "https://dog.ceo/api/breeds/image/random";
 
