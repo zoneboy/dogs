@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>API doc</title>
+
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+
+		h1 {
+			text-align: center;
+			font-family: cursive;
+			font-size: 40pt;
+			color: green;
+
+		}
+		img {
+			width: 25%;
+			height: 200px;
+			/*padding: 10px;*/
+			margin: 10px;
+			transition: transform .7s;
+			border-radius: 0px 30px 0px 30px;
+			border: solid 2px green;
+		}
+
+		.img_container {
+			margin-left: 200px;
+		}
+
+		img:hover {
+			transform: scale(1.5);
+		}
+
+		button {
+			padding: 10px;
+			color: green;
+			border-radius: 5px;
+			border: solid 2px green;
+			font-family: cursive;
+		}
+
+		.mySelect {
+			position: -webkit-sticky;
+  			position: sticky;
+  			top: 0;
+  			margin-bottom: 50px;
+  			/*margin-right: 350px;*/
+  			border: solid 2px green;
+  			border-radius: 5px;
+  			padding: 5px;
+		}
+	</style>
+</head>
+<body>
+	<h1>Lovely Dogs</h1>
+  <div class="dog"></div>
+  <!-- <div class="mySelect"></div> -->
+  <select class="mySelect">
+  	<!-- <option></option> -->
+  </select>
+
+
+  <!-- <button class="addDogs">Add More Dogs</button> -->
+  <button class="breed">Select Breed</button>
+  <div class="img_container"></div>
+
+  <script src="./dogs.js"></script>
+</body>
+</html>
