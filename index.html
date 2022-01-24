@@ -8,6 +8,8 @@
 	<style type="text/css">
 		* {
 			box-sizing: border-box;
+			margin: 0px;
+			padding: 0px;
 		}
 
 		h1 {
@@ -18,17 +20,20 @@
 
 		}
 		img {
-			width: 200px;
-			height: 200px;
+			width: 10em;
+			height: 10em;
 			/*padding: 10px;*/
-			margin: 10px;
+			/*margin: 10px;*/
 			transition: transform .7s;
 			border-radius: 0px 30px 0px 30px;
 			border: solid 2px green;
 		}
 
 		.img_container {
-			margin-left: 200px;
+			display: grid;
+			grid-template-columns: repeat(4, 1fr);
+			grid-template-rows: repeat(4, 1fr);
+			grid-gap: 5px;
 		}
 
 		img:hover {
